@@ -17,7 +17,7 @@ div {
 .text-container{
 
   display: flex;
-  flex-direction: row;
+
   margin-top: 10rem;
   z-index: 100;
   justify-content: space-around;
@@ -40,7 +40,7 @@ div {
 
 .image{
   z-index: 102;
-  margin-top: 5rem;
+  margin-top: .5rem;
   height: 4rem;
   width: 5rem;
   background-position: center !important;
@@ -64,4 +64,19 @@ div {
 
 #img3{
   background: url(./images/img3.png);
+}
+
+h2 {
+  font-size: .75rem;
+}
+
+.text-container #image-holder {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
 }
