@@ -17,30 +17,33 @@ div {
 .text-container{
 
   display: flex;
-
-  margin-top: 10rem;
+  width: 100vw;
+  margin-top: 11rem;
   z-index: 100;
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
 }
 
- 
+
 .cloud1{
   opacity: 1;
+  
 }
 
 .cloud2 {
-  opacity: 0.5;
+  opacity: 0.2;
+  mix-blend-mode: overlay;
 }
 
 .cloud3 {
   opacity: 0.8;
+  mix-blend-mode: soft-light;
 } 
 
 .image{
   z-index: 102;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   height: 4rem;
   width: 5rem;
   background-position: center !important;
@@ -67,16 +70,37 @@ div {
 }
 
 h2 {
-  font-size: .75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: .25rem;
+  font-family: serif;
+  color: #ffffff;
+  background: none;
 }
 
 .text-container #image-holder {
     margin-top: 2rem;
     width: 100%;
-    padding: 1rem;
+    padding: 0;
     position: relative;
     justify-content: space-evenly;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
 }
+
+.text-container{
+  padding-top: 1rem;
+  background-color: #0d0d0d;
+  background: rgb(13,13,13);
+  background: linear-gradient(180deg, rgba(13,13,13,0) 0%, rgba(13,13,13,0.6461178221288515) 6%, rgba(13,13,13,1) 12%);
+}
+
+#image-holder {
+  margin-top: 2rem !important;
+  padding-top: 1rem !important;
+  max-width: 90vw;
+}
+
+
+  
